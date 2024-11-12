@@ -4,7 +4,7 @@
 
     <string name="imagen_de_categoria">Imagen del Categoría</string>
 
-    <!-- Login and signup activity -->
+    <!-- Login and signup activity prestablecidos xd-->
     <string name="title_activity_login">Validando usuario</string>
     <string name="title_activity_signup">Registrando usuario</string>
     <string name="title_activity_main">Lista de Categorías</string>
@@ -17,7 +17,13 @@
     <string name="prompt_register">Registrarse</string>
     <string name="prompt_login">Ingresar</string>
 
-    <!-- Para los customer -->
+    <!-- Para signupActivity -->
+    <string name="prompt_select_customer">Seleccionar un Customer</string>
+    <string name="prompt_contact_name">Nombre del contacto</string>
+    <string name="prompt_contact_title">Titulo del contacto</string>
+
+
+    <!-- Para los customerActivity -->
     <string name="title_activity_signupCustomer">Registrando un Customer</string>
 
     <string name="prompt_registerhereCustomer">Registrar Customer aquí</string>

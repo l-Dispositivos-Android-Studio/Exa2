@@ -78,6 +78,39 @@
         android:minHeight="48dp"
         android:textColorHint="#757575"/>
 
+    <!-- Campo para seleccionar el Customer -->
+    <Spinner
+        android:id="@+id/spinnerSelectCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_select_customer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para el nombre de contacto -->
+    <EditText
+        android:id="@+id/txtContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_contact_name"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"/>
+
+    <!-- Campo para el título de contacto -->
+    <EditText
+        android:id="@+id/txtContactTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_contact_title"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"/>
 
     <!-- Botón para registrar Usuario-->
     <Button

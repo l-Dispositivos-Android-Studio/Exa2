@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829496668747",
+    "project_id": "lab04-20b05",
+    "storage_bucket": "lab04-20b05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829496668747:android:b812d34bf03d22137713ce",
+        "android_client_info": {
+          "package_name": "com.sprzd.Examen02_Moviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYE8Ih5L03eakKrAOq3EO4bZI-3DJva6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

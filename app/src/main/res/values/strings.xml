@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Examen02</string>
+
+
+    <string name="imagen_de_categoria">Imagen del Categoría</string>
+
+    <!-- Login and signup activity -->
+    <string name="title_activity_login">Validando usuario</string>
+    <string name="title_activity_signup">Registrando usuario</string>
+    <string name="title_activity_main">Lista de Categorías</string>
+
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_confirm">Confirmar contraseña</string>
+    <string name="prompt_registerhere">Registrate aquí</string>
+    <string name="prompt_register">Registrarse</string>
+    <string name="prompt_login">Ingresar</string>
+
+    <!-- Para los customer -->
+    <string name="title_activity_signupCustomer">Registrando un Customer</string>
+
+    <string name="prompt_registerhereCustomer">Registrar Customer aquí</string>
+    <string name="prompt_IDCustomer">ID del customer</string>
+
+    <string name="prompt_contactName">Nombre de contacto</string>
+    <string name="prompt_contactTitle">Título de contacto</string>
+    <string name="prompt_shipName">Nombre de envío</string>
+    <string name="prompt_shipAddress">Dirección de envío</string>
+    <string name="prompt_shipCity">Ciudad de envío</string>
+    <string name="prompt_shipRegion">Región de envío</string>
+    <string name="prompt_shipPostalCode">Código postal de envío</string>
+    <string name="prompt_shipCountry">País de envío</string>
+    <string name="prompt_btnRegistrarC">Guardar Cliente</string>
+    <string name="toast_customerSaved">Cliente registrado correctamente</string>
+    <string name="toast_errorSavingCustomer">Error al registrar cliente</string>
+
+
+
+
+
+
+    <!-- categories -->
+
+    <string name="btn_logout">Regresar</string>
+
+
+        <!-- Títulos y mensajes -->
+
+        <!-- Mensajes de error -->
+
+
+
+
+</resources>

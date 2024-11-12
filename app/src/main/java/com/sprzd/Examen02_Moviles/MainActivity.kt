@@ -36,6 +36,9 @@ class MainActivity : AppCompatActivity() {
         email = prefe.getString("email", "")
         contra = prefe.getString("contra", "")
 
+        // Comprueba los SharedPreferences al iniciar la actividad
+        checkSharedPreferences()
+
         if (email.toString().trim { it <= ' ' }.isEmpty()) {
             val intent = Intent(this, LoginActivity::class.java)
             startActivityForResult(intent, valorIntentLogin)
@@ -58,8 +61,53 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent) // Redirige a la actividad de Login
         }
+
+
+    //----------------------------------------------------------------------------------
+        //comprobar que el SharedPreferences(localstorage) esta funcionando
+        // Captura el botón de comprobar SharedPreferences y establece el Listener
+        val btnComprobar: Button = findViewById(R.id.btnComprobar)
+        btnComprobar.setOnClickListener {
+            checkSharedPreferences()  // Llamar al método para verificar los datos
+        }
     }
 
+    // Método para comprobar los SharedPreferences y mostrar los valores
+    private fun checkSharedPreferences() {
+        val prefe = this.getSharedPreferences("appData", Context.MODE_PRIVATE)
+
+        //val email = prefe.getString("email", "No email found")
+        //val contra = prefe.getString("contra", "No password found")
+        val customerId = prefe.getString("CustomerId", "No CustomerId found")
+        val shipName = prefe.getString("shipName", "No shipName found")
+        val shipAddress = prefe.getString("shipAddress", "No shipAddress found")
+        val shipCity = prefe.getString("shipCity", "No shipCity found")
+        val shipRegion = prefe.getString("shipRegion", "No shipRegion found")
+        val shipPostalCode = prefe.getString("shipPostalCode", "No shipPostalCode found")
+        val shipCountry = prefe.getString("shipCountry", "No shipCountry found")
+
+        // Crear un String con los valores
+        val message =
+                     //"Email: $email\n" +
+                    //"Password: $contra\n" +
+                    //"CustomerId: $customerId\n" +
+                    "Ship Name: $shipName\n" +
+                    "Ship Address: $shipAddress\n" +
+                    "Ship City: $shipCity\n" +
+                    "Ship Region: $shipRegion\n" +
+                    "Ship Postal Code: $shipPostalCode\n" +
+                    "Ship Country: $shipCountry"
+
+        // Mostrar los datos en un Toast para verificar
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+
+    }
+    //----------------------------------------------------------------------------------
+
+
+
+
+    // Método para obtener los datos de la base de datos de Firestore
     private fun obtenerDatos() {
         val coleccion: ArrayList<cls_Category?> = ArrayList()
         val listaView: ListView = findViewById(R.id.lstCategories)

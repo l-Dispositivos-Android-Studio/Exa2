@@ -18,6 +18,13 @@
         android:layout_marginTop="15dp"
         android:textSize="16sp" />
 
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprobar SharedPreferences" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

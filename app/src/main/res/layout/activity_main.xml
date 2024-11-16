@@ -10,6 +10,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- Botón de cerrar sesión (de arriba) -->
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="match_parent"
@@ -18,13 +19,7 @@
         android:layout_marginTop="15dp"
         android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/btnComprobar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Comprobar SharedPreferences" />
-
-
+    <!-- Título -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,11 +32,18 @@
         android:textAlignment="center"
         android:textSize="24sp" />
 
+    <!-- ListView de productos -->
     <ListView
-        android:id="@+id/lstCategories"
+        android:id="@+id/productListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="0dp"
+        android:layout_weight="1" /> <!-- Ocupa el espacio restante -->
 
-
-
+    <!-- Botón para ver carrito, ahora en la parte inferior -->
+    <Button
+        android:id="@+id/btnVerCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_VerCarrito"
+        android:layout_marginTop="20dp" />
 </LinearLayout>

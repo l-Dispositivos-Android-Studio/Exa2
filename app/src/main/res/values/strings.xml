@@ -7,7 +7,7 @@
     <!-- Login and signup activity prestablecidos xd-->
     <string name="title_activity_login">Validando usuario</string>
     <string name="title_activity_signup">Registrando usuario</string>
-    <string name="title_activity_main">Lista de Categorías</string>
+    <string name="title_activity_main">Lista de Productos</string>
 
     <string name="prompt_name">Nombre</string>
     <string name="prompt_email">Correo electrónico</string>
@@ -34,7 +34,7 @@
     <string name="prompt_shipName">Nombre de envío</string>
     <string name="prompt_shipAddress">Dirección de envío</string>
     <string name="prompt_shipCity">Ciudad de envío</string>
-    <string name="prompt_shipRegion">Región de envío</string>
+    <string name="prompt_shipRegion">Region</string>
     <string name="prompt_shipPostalCode">Código postal de envío</string>
     <string name="prompt_shipCountry">País de envío</string>
     <string name="prompt_btnRegistrarC">Guardar Cliente</string>
@@ -42,20 +42,28 @@
     <string name="toast_errorSavingCustomer">Error al registrar cliente</string>
 
 
-
-
-
-
-    <!-- categories -->
+    <!-- products -->
 
     <string name="btn_logout">Regresar</string>
 
+    <string name="btn_AgregarCarrito">Agregar al carrito</string>
 
-        <!-- Títulos y mensajes -->
+    <string name="btn_AplicarCompra">Aplicar Compra</string>
+    <string name="btn_CancelarCompra">Cancelar Compra</string>
+    <string name="cart_title">Carrito de Compras</string>
+    <string name="subtotal_text">Subtotal:</string>
+    <string name="discount_text">Descuento:</string>
+    <string name="quantity_text">Cantidad:</string>
+    <string name="unit_price_text">Precio Unitario:</string>
+    <string name="text_producto_agregado">Producto agregado al carrito</string>
+    <string name="text_compra_aplicada">Compra aplicada</string>
+    <string name="text_cancelar_compra">Compra cancelada</string>
+    <string name="text_error_carrito_vacio">El carrito está vacío</string>
 
-        <!-- Mensajes de error -->
+    <color name="greenColor">#4CAF50</color>
 
 
+    <string name="btn_VerCarrito">ver Carrito</string>
 
 
 </resources>

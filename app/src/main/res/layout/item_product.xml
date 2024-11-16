@@ -7,15 +7,10 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <TextView
-        android:id="@+id/IdCategory"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="5sp"
-        android:visibility="invisible" />
+
 
     <ImageView
-        android:id="@+id/imgCategory"
+        android:id="@+id/productImage"
         android:layout_width="match_parent"
         android:layout_height="125dp"
         android:layout_marginStart="3dp"
@@ -29,7 +24,7 @@
         android:padding="2dp" />
 
     <TextView
-        android:id="@+id/NameCategory"
+        android:id="@+id/productName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -38,7 +33,7 @@
         android:layout_marginTop="5dp"/>
 
     <TextView
-        android:id="@+id/DescriptionCategory"
+        android:id="@+id/productPrice"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -46,6 +41,22 @@
         android:textAlignment="center"
         android:layout_marginTop="10sp"/>
 
+    <TextView
+        android:id="@+id/productQuantity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"/>
+
+    <Button
+        android:id="@+id/btn_AgregarCarrito"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_AgregarCarrito"
+        android:background="#FFF" />
 
 
 </LinearLayout>
